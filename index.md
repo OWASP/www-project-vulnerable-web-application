@@ -1,89 +1,54 @@
 ---
 
 layout: col-sidebar
-title: OWASP vulnerable web application
+title: OWASP Vulnerable Web Application
 tags: example-tag
 level: 0
 type: code
 
 auto-migrated: 1
+auto-migrated: 1
+
 ---
 
-This is an example of a Project or Chapter Page.
-<div style="width:100%;height:160px;border:0,margin:0;overflow: hidden;">
 
-![OWASP_Project_Header.jpg](OWASP_Project_Header.jpg
-"OWASP_Project_Header.jpg")
+<!-- Standard Chapter Page Template
+This is an example of a Project or Chapter page.
+Please change these items to indicate the actual information you wish to present. In addition to this information, the 'front-matter' above the text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
 
-</div>
+{front matter for this file}
 
-<table>
-<tbody>
-<tr class="odd">
-<td><h2 id="description">Description</h2>
-<p>Vulnerable-Web-Application is a website that is prepared for people who are interested in web penetration and who want to have information about this subject or to be working. In fact, the website is quite simple to install and use.</p>
-<p>Vulnerable-Web-Application is a website that is prepared for people who are interested in web penetration and who want to have information about this subject or to be working. In fact, the website is quite simple to install and use.</p>
-<p>Vulnerable-Web-Application categorically includes Command Execution, File Inclusion, File Upload, SQL and XSS. For database-requiring categories, it creates a database under localhost with one button during setup. In case of corrupted or changed databases, you can create a database again.</p>
-<p>Vulnerable-Web-Application categorically includes Command Execution, File Inclusion, File Upload, SQL and XSS. For database-requiring categories, it creates a database under localhost with one button during setup. In case of corrupted or changed databases, you can create a database again.</p>
-<p><a href="https://github.com/OWASP/Vulnerable-Web-Application">Vulnerable Web Application Project Repository</a></p>
-<p><a href="https://github.com/OWASP/Vulnerable-Web-Application">Vulnerable Web Application Project Repository</a></p>
-<h2 id="licensing">Licensing</h2>
-<h2 id="licensing">Licensing</h2>
-<p><a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL</a></p>
-<p><a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL</a></p>
-<p>The "General Public License" protects users' four essential freedoms, among other things by requiring someone who distributes software derived from yours to also publish the source code for the modifications. Anyone can charge money for distributing copies of the software, but cannot prevent its recipients from redistributing it for free. The GPL allows the copyright holders to distribute the software under additional licenses, too, which can be a way to make it proprietary-friendly.</p>
-<p>The "General Public License" protects users' four essential freedoms, among other things by requiring someone who distributes software derived from yours to also publish the source code for the modifications. Anyone can charge money for distributing copies of the software, but cannot prevent its recipients from redistributing it for free. The GPL allows the copyright holders to distribute the software under additional licenses, too, which can be a way to make it proprietary-friendly.</p>
-<h2 id="how_to_contribute">How to Contribute</h2>
-<h2 id="how_to_contribute">How to Contribute</h2>
-<ul>
-<ul>
-<li>Solve the challenges in the <a href="https://github.com/OWASP/Vulnerable-Web-Application">Vulnerable Web Application Project</a></li>
-<li>Solve the challenges in the <a href="https://github.com/OWASP/Vulnerable-Web-Application">Vulnerable Web Application Project</a></li>
-<li>Choose a category or create new category (CSRF,XML Entity etc.)</li>
-<li>Choose a category or create new category (CSRF,XML Entity etc.)</li>
-<li>Create the challenge under the choosen category</li>
-<li>Create the challenge under the choosen category</li>
-<li>Submit your work</li>
-<li>Submit your work</li>
-</ul></td>
-</ul></td>
-<p><a href="https://github.com/hummingbirdscyber/">Hummingbirds Cyber Security Community</a></p>
-<h2 id="project_leader">Project Leader</h2>
-<p><a href="mailto:fcelik.ft@gmail.com">Fatih Çelik</a></p>
-<p><a href="https://www.linkedin.com/in/fatih-%C3%A7elik-475560150/">Linkedin</a> <a href="https://github.com/fatihhcelik">Github</a></p>
-<h2 id="core_team">Core Team</h2>
-<p><a href="https://github.com/OguzTozkoparan">Mehmet Oğuz Tozkoparan</a></p>
-<p><a href="https://github.com/ofsenyayla">Ömer Faruk Şenyayla</a></p>
-<p><a href="https://github.com/RamazanEmreErkan">Ramazan Emre Erkan</a></p>
-<p><a href="https://github.com/ufuksungu">Ufuk Süngü</a></p>
-<h2 id="classifications">Classifications</h2>
-<table>
-<tbody>
-<tr class="odd">
-<img src="Project_Type_Files_CODE.jpg" title="Project_Type_Files_CODE.jpg" alt="Project_Type_Files_CODE.jpg" /><figcaption>Project_Type_Files_CODE.jpg</figcaption>
-</figure></td>
-</tr>
-<tr class="even">
-<img src="Owasp-incubator-trans-85.png" title="Owasp-incubator-trans-85.png" alt="Owasp-incubator-trans-85.png" /><figcaption>Owasp-incubator-trans-85.png</figcaption>
-</figure></td>
-</tr>
-<tr class="odd">
-<img src="Owasp-defenders-small.png" title="Owasp-defenders-small.png" alt="Owasp-defenders-small.png" /><figcaption>Owasp-defenders-small.png</figcaption>
-</figure></td>
-</tr>
-<tr class="even">
-<img src="Agplv3-155x51.png" title="Agplv3-155x51.png" alt="Agplv3-155x51.png" /><figcaption>Agplv3-155x51.png</figcaption>
-</figure></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
+```
+- layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+- title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+- tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+- region: This is the region you are in according to our data
+```
 
-__NOTOC__ <headertabs />
+{copy for this file (index.md)}
+Replace the text above the commented area with your information in the format below:
+```
+## Welcome
+Include some information here about your chapter
 
-[Category:OWASP Project](Category:OWASP_Project "wikilink")
-[Category:OWASP_Builders](Category:OWASP_Builders "wikilink")
-[Category:OWASP_Defenders](Category:OWASP_Defenders "wikilink")
-[Category:OWASP_Code](Category:OWASP_Code "wikilink")
+## Participation
+The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. All of our projects ,tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
+
+Chapters are led by local leaders in accordance with the [Chapter Leader Handbook](/www-policy/rules-of-procedure/chapter-handbook). Financial contributions should only be made online using the authorized online donation button. To be a SPEAKER at ANY OWASP Chapter in the world simply review the [speaker agreement](/www-policy/speaker-agreement) and then contact the local chapter leader with details of what OWASP Project, independent research, or related software security topic you would like to present.
+
+Everyone is welcome and encouraged to participate in our [Projects](/projects), [Local Chapters](/chapters), [Events](/events), [Online Groups](https://groups.google.com/a/owasp.com/){:target='_blank'}, and [Community Slack Channel](https://owasp.slack.com/){:target='_blank'}. We especially encourage diversity in all our initiatives. OWASP is a fantastic place to learn about application security, to network, and even to build your reputation as an expert. We also encourage you to be [become a member](/membership) or consider a [donation](/donate) to support our ongoing work.
+
+## Local News
+- Meeting Location
+- Everyone is welcome to join us at our chapter meetings.
+
+```
+{info.md}
+
+This separate file is where you should place links to your Google Group and Meetup page. It will be automatically rendered in the column sidebar.
+
+{leaders.md}
+
+Another separate file that should simply include each leaders name with mailto link as a list. It will also be automatically rendered in the column sidebar.
+
+-->

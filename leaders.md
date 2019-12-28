@@ -1,3 +1,3 @@
 ### Leaders
 
-* [Fatih Çelik](mailto://)
+* [Fatih Ã‡elik](mailto:)
